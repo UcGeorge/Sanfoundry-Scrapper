@@ -7,6 +7,8 @@ A python scrapper script that scrappes all the questions and answers from a sanf
 - BeautifulSoup (bs4)
 - Requests (requests)
 
+> Note: You must already have python installed.
+
 ### Install Requirements
 
 ```bash
