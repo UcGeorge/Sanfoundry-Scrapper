@@ -54,4 +54,8 @@ def scrappe(starting_url):
         f'Your questions.json has {len(question_data["questions"])} questions')
 
 
-scrappe(input('Enter the sanfoundry url of the page\nat the begginning of the questions >> '))
+try:
+    scrappe(input(
+        'Enter the sanfoundry url of the page\nat the begginning of the questions >> '))
+except KeyboardInterrupt:
+    print('KeyboardInterrupt - Exiting')
